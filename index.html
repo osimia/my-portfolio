@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Акрамхон Осими — Fullstack Developer, Data Analyst. Создатель Hushyor, OsimiEDU и других продуктов.">
+    <title>Акрамхон Осими — Fullstack Developer & Data Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Навигация -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">
+                <span class="logo-bracket">&lt;</span>AO<span class="logo-bracket">/&gt;</span>
+            </a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">Обо мне</a></li>
+                <li><a href="#skills">Навыки</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Меню">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Главный экран -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-animation">
+            <div class="floating-shape shape-1"></div>
+            <div class="floating-shape shape-2"></div>
+            <div class="floating-shape shape-3"></div>
+            <div class="floating-shape shape-4"></div>
+            <div class="floating-shape shape-5"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting animate-fade-up">Привет, я</p>
+            <h1 class="hero-name animate-fade-up delay-1">Акрамхон Осими</h1>
+            <div class="hero-title-wrapper animate-fade-up delay-2">
+                <span class="hero-title">Fullstack Developer</span>
+                <span class="hero-separator">|</span>
+                <span class="hero-title">Data Analyst</span>
+                <span class="hero-separator">|</span>
+                <span class="hero-title">EdTech Founder</span>
+            </div>
+            <p class="hero-description animate-fade-up delay-3">
+                Создаю образовательные платформы с ИИ и превращаю данные в решения для бизнеса
+            </p>
+            <div class="hero-buttons animate-fade-up delay-4">
+                <a href="#projects" class="btn btn-primary">Мои проекты</a>
+                <a href="#contact" class="btn btn-outline">Связаться</a>
+            </div>
+        </div>
+        <div class="scroll-indicator animate-fade-up delay-5">
+            <div class="mouse">
+                <div class="mouse-wheel"></div>
+            </div>
+            <span>Прокрутите вниз</span>
+        </div>
+    </section>
+
+    <!-- Обо мне -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">01.</span> Обо мне
+            </h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        Я — fullstack-разработчик и аналитик данных. Создаю образовательные
+                        платформы и автоматизирую бизнес-процессы.
+                    </p>
+                    <p>
+                        Основатель <strong>Hushyor</strong> — платформы для подготовки к ММТ с ИИ-помощником
+                        (12 700+ задач, веб и мобильное приложение в Google Play), и
+                        <strong>OsimiEDU</strong> — платформы для обучения программированию с
+                        ИИ-генератором персональных курсов.
+                    </p>
+                    <p>
+                        Работаю с Python, Django, SQL, JavaScript и другими технологиями.
+                        Люблю превращать идеи в работающие продукты.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="3">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Продукта</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="12700">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Задач в Hushyor</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="23">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Предметов</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number" data-target="8">0</span><span class="stat-plus">+</span>
+                        <span class="stat-label">Курсов</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Навыки -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">02.</span> Навыки
+            </h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h3>Python</h3>
+                    <p>Pandas, NumPy, автоматизация, скрипты и обработка данных</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗃️</div>
+                    <h3>SQL</h3>
+                    <p>Сложные запросы, оптимизация, StarRocks, MySQL, PostgreSQL</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📊</div>
+                    <h3>Анализ данных</h3>
+                    <p>Pandas, визуализация, отчётность, Excel-автоматизация</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="88%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>Django & Web</h3>
+                    <p>Fullstack-разработка, REST API, HTML, CSS, JavaScript</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h3>Mobile</h3>
+                    <p>Flutter, Dart, Android-приложения, Google Play публикация</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75%"></div>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🤖</div>
+                    <h3>AI & LLM</h3>
+                    <p>Интеграция ИИ, генерация контента, персонализация обучения</p>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">03.</span> Проекты
+            </h2>
+            <div class="projects-grid">
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">🎓</div>
+                        <div class="project-links">
+                            <a href="https://play.google.com/store/apps/details?id=tj.hushyor.app" target="_blank"
+                                title="Google Play" class="project-link">📱</a>
+                            <a href="https://hushyor.com" target="_blank" title="Веб-сайт" class="project-link">↗</a>
+                        </div>
+                    </div>
+                    <h3 class="project-name">Hushyor</h3>
+                    <p class="project-desc">
+                        Платформа для подготовки к вступительным экзаменам (ММТ) с ИИ-помощником.
+                        12 700+ задач по 23 предметам. Есть веб-версия и мобильное приложение
+                        в Google Play.
+                    </p>
+                    <div class="project-tags">
+                        <span>Django</span>
+                        <span>Flutter</span>
+                        <span>AI</span>
+                        <span>EdTech</span>
+                        <span>Google Play</span>
+                    </div>
+                </div>
+                <div class="project-card featured">
+                    <div class="project-header">
+                        <div class="project-icon">🤖</div>
+                        <div class="project-links">
+                            <a href="https://osimiedu.online" target="_blank" title="Веб-сайт"
+                                class="project-link">↗</a>
+                        </div>
+                    </div>
+                    <h3 class="project-name">OsimiEDU</h3>
+                    <p class="project-desc">
+                        Образовательная платформа для обучения программированию.
+                        Включает ИИ-генератор персональных курсов (OsimiAI),
+                        8+ готовых курсов: Python, Django, SQL, Pandas, Flutter и другие.
+                    </p>
+                    <div class="project-tags">
+                        <span>Django</span>
+                        <span>AI/LLM</span>
+                        <span>Python</span>
+                        <span>EdTech</span>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-header">
+                        <div class="project-icon">�</div>
+                        <div class="project-links">
+                            <a href="#" title="Внутренняя платформа" class="project-link">🔒</a>
+                        </div>
+                    </div>
+                    <h3 class="project-name">Finance Platform</h3>
+                    <p class="project-desc">
+                        Внутренняя платформа для анализа финансовых данных по регионам.
+                        Автоматизация отчётности, оптимизация SQL-запросов, экспорт и
+                        визуализация данных в реальном времени.
+                    </p>
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>SQL</span>
+                        <span>Pandas</span>
+                        <span>StarRocks</span>
+                        <span>Analytics</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="section-number">04.</span> Контакты
+            </h2>
+            <div class="contact-content">
+                <p class="contact-text">
+                    Хотите обсудить проект или просто поздороваться?
+                    Мой почтовый ящик всегда открыт. Буду рад вашему сообщению!
+                </p>
+                <div class="contact-links">
+                    <a href="mailto:aosimi95@gmail.com" class="contact-card">
+                        <span class="contact-icon">📧</span>
+                        <span class="contact-label">Email</span>
+                        <span class="contact-value">aosimi95@gmail.com</span>
+                    </a>
+                    <a href="https://github.com/osimia" target="_blank" class="contact-card">
+                        <span class="contact-icon">💻</span>
+                        <span class="contact-label">GitHub</span>
+                        <span class="contact-value">github.com/osimia</span>
+                    </a>
+                    <a href="https://t.me/KhanOsimi" target="_blank" class="contact-card">
+                        <span class="contact-icon">✈️</span>
+                        <span class="contact-label">Telegram</span>
+                        <span class="contact-value">@KhanOsimi</span>
+                    </a>
+                </div>
+                <a href="mailto:aosimi95@gmail.com" class="btn btn-primary btn-large">
+                    Написать мне
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <p>Сделано с ❤️ Акрамхон Осими &copy; 2026</p>
+            <p class="footer-note">Опубликовано на GitHub Pages</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
